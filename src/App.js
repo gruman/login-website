@@ -74,7 +74,7 @@ function App() {
           </ol>
           </> : 
           <>
-          <p>This website is made with React and Firebase. You can see the code at <a href=""></a></p>
+          <p>This website is made with React and Firebase. You can see the code on <a href="https://github.com/gruman/login-website">GitHub</a>.</p>
         <input type="text" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
         <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
         <input type="button" value="Login" onClick={() => login()} />
